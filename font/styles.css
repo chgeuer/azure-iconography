@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "azure-iconography";
+  src:url("fonts/azure-iconography.eot");
+  src:url("fonts/azure-iconography.eot?#iefix") format("embedded-opentype"),
+    url("fonts/azure-iconography.woff") format("woff"),
+    url("fonts/azure-iconography.ttf") format("truetype"),
+    url("fonts/azure-iconography.svg#azure-iconography") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "azure-iconography" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="waicon-"]:before,
+[class*=" waicon-"]:before {
+  font-family: "azure-iconography" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.waicon-active-directory:before {
+  content: "a";
+}
+.waicon-alert:before {
+  content: "b";
+}
+.waicon-automation:before {
+  content: "c";
+}
+.waicon-autoscale:before {
+  content: "d";
+}
+.waicon-blob-storage:before {
+  content: "e";
+}
+.waicon-cdn:before {
+  content: "f";
+}
+.waicon-certificate:before {
+  content: "g";
+}
+.waicon-cloud:before {
+  content: "h";
+}
+.waicon-cloud-2:before {
+  content: "i";
+}
+.waicon-cloud-services:before {
+  content: "j";
+}
+.waicon-code-file:before {
+  content: "k";
+}
+.waicon-computer:before {
+  content: "l";
+}
+.waicon-cscfg:before {
+  content: "m";
+}
+.waicon-csdef:before {
+  content: "n";
+}
+.waicon-database:before {
+  content: "o";
+}
+.waicon-enterprise:before {
+  content: "p";
+}
+.waicon-generic-queue:before {
+  content: "q";
+}
+.waicon-health-monitoring:before {
+  content: "r";
+}
+.waicon-healthy:before {
+  content: "s";
+}
+.waicon-hyper-v-recovery-manager:before {
+  content: "t";
+}
+.waicon-import:before {
+  content: "u";
+}
+.waicon-laptop:before {
+  content: "v";
+}
+.waicon-load-balancer:before {
+  content: "w";
+}
+.waicon-load-balancer-arrow:before {
+  content: "x";
+}
+.waicon-media-services:before {
+  content: "y";
+}
+.waicon-message:before {
+  content: "z";
+}
+.waicon-mobile-device:before {
+  content: "A";
+}
+.waicon-multi-factor-authentication:before {
+  content: "B";
+}
+.waicon-mysql:before {
+  content: "C";
+}
+.waicon-notification-hub:before {
+  content: "D";
+}
+.waicon-operating-system-image:before {
+  content: "E";
+}
+.waicon-powershell-file:before {
+  content: "F";
+}
+.waicon-scheduler:before {
+  content: "G";
+}
+.waicon-script-file:before {
+  content: "H";
+}
+.waicon-sdk:before {
+  content: "I";
+}
+.waicon-server:before {
+  content: "J";
+}
+.waicon-server-rack:before {
+  content: "K";
+}
+.waicon-service-bus-topic:before {
+  content: "L";
+}
+.waicon-sql:before {
+  content: "M";
+}
+.waicon-store:before {
+  content: "N";
+}
+.waicon-storsimple:before {
+  content: "O";
+}
+.waicon-subscription:before {
+  content: "P";
+}
+.waicon-table-storage:before {
+  content: "Q";
+}
+.waicon-tablet:before {
+  content: "R";
+}
+.waicon-unidentified-feature-object:before {
+  content: "S";
+}
+.waicon-user:before {
+  content: "T";
+}
+.waicon-vhd-data-disk:before {
+  content: "U";
+}
+.waicon-vhd-os-disk:before {
+  content: "V";
+}
+.waicon-virtual-machine-feature:before {
+  content: "W";
+}
+.waicon-visual-studio-online:before {
+  content: "X";
+}
+.waicon-web-role:before {
+  content: "Y";
+}
+.waicon-web-roles:before {
+  content: "Z";
+}
+.waicon-web-sites:before {
+  content: "0";
+}
+.waicon-worker-role:before {
+  content: "1";
+}
+.waicon-worker-roles:before {
+  content: "2";
+}
