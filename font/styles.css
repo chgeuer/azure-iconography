@@ -25,8 +25,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="waicon-"]:before,
-[class*=" waicon-"]:before {
+[class^="wa-"]:before,
+[class*=" wa-"]:before {
   font-family: "azure-iconography" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -38,168 +38,228 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.waicon-active-directory:before {
+.wa-access-control:before {
   content: "a";
 }
-.waicon-alert:before {
+.wa-active-directory:before {
   content: "b";
 }
-.waicon-automation:before {
+.wa-alert:before {
   content: "c";
 }
-.waicon-autoscale:before {
+.wa-automation:before {
   content: "d";
 }
-.waicon-blob-storage:before {
+.wa-autoscale:before {
   content: "e";
 }
-.waicon-cdn:before {
+.wa-backup-service:before {
   content: "f";
 }
-.waicon-certificate:before {
+.wa-bitbucket:before {
   content: "g";
 }
-.waicon-cloud:before {
+.wa-bitbucket-source-code:before {
   content: "h";
 }
-.waicon-cloud-2:before {
+.wa-biztalk-services:before {
   content: "i";
 }
-.waicon-cloud-services:before {
+.wa-blob-storage:before {
   content: "j";
 }
-.waicon-code-file:before {
+.wa-cache:before {
   content: "k";
 }
-.waicon-computer:before {
+.wa-cdn:before {
   content: "l";
 }
-.waicon-cscfg:before {
+.wa-certificate:before {
   content: "m";
 }
-.waicon-csdef:before {
+.wa-cloud:before {
   content: "n";
 }
-.waicon-database:before {
+.wa-azure:before {
   content: "o";
 }
-.waicon-enterprise:before {
+.wa-cloud-services:before {
   content: "p";
 }
-.waicon-generic-queue:before {
+.wa-code-file:before {
   content: "q";
 }
-.waicon-health-monitoring:before {
+.wa-codeplex-source-code:before {
   content: "r";
 }
-.waicon-healthy:before {
+.wa-computer:before {
   content: "s";
 }
-.waicon-hyper-v-recovery-manager:before {
+.wa-cscfg:before {
   content: "t";
 }
-.waicon-import:before {
+.wa-csdef:before {
   content: "u";
 }
-.waicon-laptop:before {
+.wa-database:before {
   content: "v";
 }
-.waicon-load-balancer:before {
+.wa-dropbox-source-code:before {
   content: "w";
 }
-.waicon-load-balancer-arrow:before {
+.wa-enterprise:before {
   content: "x";
 }
-.waicon-media-services:before {
+.wa-express-route:before {
   content: "y";
 }
-.waicon-message:before {
+.wa-generic-queue:before {
   content: "z";
 }
-.waicon-mobile-device:before {
+.wa-github:before {
   content: "A";
 }
-.waicon-multi-factor-authentication:before {
+.wa-git:before {
   content: "B";
 }
-.waicon-mysql:before {
+.wa-hdinsight:before {
   content: "C";
 }
-.waicon-notification-hub:before {
+.wa-health-monitoring:before {
   content: "D";
 }
-.waicon-operating-system-image:before {
+.wa-healthy:before {
   content: "E";
 }
-.waicon-powershell-file:before {
+.wa-recovery-manager:before {
   content: "F";
 }
-.waicon-scheduler:before {
+.wa-import:before {
   content: "G";
 }
-.waicon-script-file:before {
+.wa-laptop:before {
   content: "H";
 }
-.waicon-sdk:before {
+.wa-load-balancer:before {
   content: "I";
 }
-.waicon-server:before {
+.wa-load-balancer-arrow:before {
   content: "J";
 }
-.waicon-server-rack:before {
+.wa-load-balancer-generic:before {
   content: "K";
 }
-.waicon-service-bus-topic:before {
+.wa-media-services:before {
   content: "L";
 }
-.waicon-sql:before {
+.wa-message:before {
   content: "M";
 }
-.waicon-store:before {
+.wa-mobile-device:before {
   content: "N";
 }
-.waicon-storsimple:before {
+.wa-mobile-service:before {
   content: "O";
 }
-.waicon-subscription:before {
+.wa-multi-factor-authentication:before {
   content: "P";
 }
-.waicon-table-storage:before {
+.wa-mysql:before {
   content: "Q";
 }
-.waicon-tablet:before {
+.wa-notification-hub:before {
   content: "R";
 }
-.waicon-unidentified-feature-object:before {
+.wa-notification-topic:before {
   content: "S";
 }
-.waicon-user:before {
+.wa-operating-system-image:before {
   content: "T";
 }
-.waicon-vhd-data-disk:before {
+.wa-powershell-file:before {
   content: "U";
 }
-.waicon-vhd-os-disk:before {
+.wa-scheduler:before {
   content: "V";
 }
-.waicon-virtual-machine-feature:before {
+.wa-script-file:before {
   content: "W";
 }
-.waicon-visual-studio-online:before {
+.wa-sdk:before {
   content: "X";
 }
-.waicon-web-role:before {
+.wa-server:before {
   content: "Y";
 }
-.waicon-web-roles:before {
+.wa-server-rack:before {
   content: "Z";
 }
-.waicon-web-sites:before {
+.wa-service-bus:before {
   content: "0";
 }
-.waicon-worker-role:before {
+.wa-service-bus-queue:before {
   content: "1";
 }
-.waicon-worker-roles:before {
+.wa-service-bus-relay:before {
   content: "2";
+}
+.wa-service-bus-topic:before {
+  content: "3";
+}
+.wa-sql:before {
+  content: "4";
+}
+.wa-sql-data-sync:before {
+  content: "5";
+}
+.wa-sql-database:before {
+  content: "6";
+}
+.wa-store:before {
+  content: "7";
+}
+.wa-storsimple:before {
+  content: "8";
+}
+.wa-subscription:before {
+  content: "9";
+}
+.wa-table-storage:before {
+  content: "!";
+}
+.wa-tablet:before {
+  content: "\"";
+}
+.wa-unidentified-feature-object:before {
+  content: "#";
+}
+.wa-user:before {
+  content: "$";
+}
+.wa-vhd-data-disk:before {
+  content: "%";
+}
+.wa-vhd-os-disk:before {
+  content: "&";
+}
+.wa-virtual-machine-feature:before {
+  content: "'";
+}
+.wa-visual-studio-online:before {
+  content: "(";
+}
+.wa-web-role:before {
+  content: ")";
+}
+.wa-web-roles:before {
+  content: "*";
+}
+.wa-web-sites:before {
+  content: "+";
+}
+.wa-worker-role:before {
+  content: ",";
+}
+.wa-worker-roles:before {
+  content: "-";
 }
